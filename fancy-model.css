@@ -33,10 +33,10 @@ body {
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color: #6c3734;
 }
 
 .btn.active {
-  background-color: #666;
+  background-color: #e1c4a5;
   color: white;
 }
