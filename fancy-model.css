@@ -20,6 +20,12 @@ body {
 .container {
   margin-top: 20px;
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 }
 
 /* Style the buttons */
