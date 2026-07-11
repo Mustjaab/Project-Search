@@ -4,13 +4,11 @@ body {
 }
  
 .filterDiv {
-  float: left;
   background-color: #4e3c3b;  
   color: #ffffff;
   width: 100px;
   line-height: 100px;
   text-align: center;
-  margin: 2px;
   display: none;
 }
 
