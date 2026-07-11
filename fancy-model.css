@@ -1,10 +1,10 @@
 body {
   box-sizing: border-box;
-  background-color: #DFCCBF;
+  background-color: #0e213a;
 }
  
 .filterDiv {
-  background-color: #4e3c3b;  
+  background-color: #5a4252;  
   color: #ffffff;
   width: 100px;
   line-height: 100px;
@@ -37,7 +37,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #6c3734;
+  background-color: #100418;
   color: white;
 }
 
