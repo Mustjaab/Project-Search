@@ -6,15 +6,23 @@ body {
 .filterDiv {
   background-color: #5a4252;  
   color: #ffffff;
-  width: 100px;
-  line-height: 100px;
+  width: 160px;        /* Wider than tall */
+  height: 80px;         /* Shorter height for horizontal look */
   text-align: center;
   display: none;
   margin: 2px;
+  display: flex;        /* Better centering method */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;   /* Optional: rounded corners for better look */
 }
 
 .show {
-  display: block;
+  display: flex;        /* Changed from block to flex to maintain centering */
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -25,6 +33,7 @@ body {
   margin: 0;
   padding: 0;
   justify-content: center;
+  gap: 4px;             /* Better spacing than margin on individual cards */
 }
 
 /* Style the buttons */
@@ -35,6 +44,8 @@ body {
   background-color: #7a002b; 
   cursor: pointer;
   color: white;
+  margin: 2px;          /* Added for button spacing */
+  border-radius: 4px;   /* Optional: rounded buttons */
 }
 
 .btn:hover {
@@ -46,9 +57,12 @@ body {
   background-color: #493f4f;
   color: white;
 }
+
 a {
   color: white;
 }
+
 h1 {
   color: white;
+  text-align: center;   /* Added to center the heading */
 }
